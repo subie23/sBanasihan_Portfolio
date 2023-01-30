@@ -14,7 +14,7 @@ import {
 import { LinkContainer } from 'react-router-bootstrap';
 import './Nav.css'
 
-const MyNav = () => {
+const Nav = () => {
   const [showNavNoToggler, setShowNavNoToggler] = useState(false);
 
   return (
@@ -46,7 +46,7 @@ const MyNav = () => {
               </LinkContainer>
               <LinkContainer to="/resume">
                 <MDBNavbarItem>
-                <MDBNavbarLink href="#resume">My Resume</MDBNavbarLink>
+                <MDBNavbarLink href="#resume">Resume</MDBNavbarLink>
                 </MDBNavbarItem>
               </LinkContainer>
               <LinkContainer to="/contact">

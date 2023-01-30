@@ -16,8 +16,8 @@ import card1Img from '../../images/'
 import card2Img from '../../images/'
 import card3Img from '../../images/'
 import card4Img from '../../images/'
-import card5Img from '../../images/'
-import card6Img from '../../images/'
+import card5Img from '../../images/TasteBuds.png'
+import card6Img from '../../images/RobinGoodFoods.png'
 import './Portfolio.css'
 
 const Portfolio = () => {

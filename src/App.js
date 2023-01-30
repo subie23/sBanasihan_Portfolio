@@ -1,15 +1,26 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import { Route, Routes } from "react-router-dom";
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import MyNav from './components/Navigation/Nav';
+import Footer from "./components/Footer/Footer";
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Footer/>
+    <div className="App">
+      <MyNav />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
+        <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
+    <Footer />
     </div>
   );
 }
