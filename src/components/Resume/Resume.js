@@ -26,7 +26,7 @@ function Resume() {
           </p>
 
           <a
-            href="https://github.com/sBanasihan_Portfolio/react-portfolio/raw/main/docs/Suzanne Banasihan-Resume.docx"
+            href="https://github.com/sBanasihan_Portfolio/react-portfolio/raw/main/docs/SuzanneBanasihan-Resume.docx"
             class="link"
           >
             Download My Resume
