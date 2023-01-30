@@ -1,9 +1,11 @@
-import Profile from "./PortfolioContainer/Home/Profile";
+/* eslint-disable react/jsx-no-undef */
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-  <Profile/>  
+    <div>
+      <Header/>
+      <Footer/>
     </div>
   );
 }
