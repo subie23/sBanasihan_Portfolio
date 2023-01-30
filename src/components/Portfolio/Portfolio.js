@@ -12,10 +12,10 @@ import {
     MDBCardFooter
     } from 'mdb-react-ui-kit';
 
-import card1Img from '../../images/'
-import card2Img from '../../images/'
-import card3Img from '../../images/'
-import card4Img from '../../images/'
+import card1Img from '../../images/PasswordMagic.png'
+import card2Img from '../../images/QuizME.png'
+import card3Img from '../../images/OneDay.png'
+import card4Img from '../../images/Weather.png'
 import card5Img from '../../images/TasteBuds.png'
 import card6Img from '../../images/RobinGoodFoods.png'
 import './Portfolio.css'
@@ -31,7 +31,9 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>Password-Magic</MDBCardTitle>
                         <MDBCardText>
-                            
+                        JavaScript was used to create the functions of a random password generator.
+                        It includes prompts to choose the password length between 8-128 characters, then prompts to choose what types of characters to include from lowercase letters, uppercase letters, numbers and special characters.
+                        A random password is generated based on the information gathered from the prompts  
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
@@ -46,7 +48,10 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>Quiz_Me</MDBCardTitle>
                         <MDBCardText>
-                            
+                        This is a timed JavaScript quiz. 
+                        40 seconds to answer the questions. 
+                        Correct answers will earn 5 points and wrong answers will deduct 2 points (-2) from your score and 3 seconds (-3) off of your time. 
+                        The game is over when the time is up or all the questions have been answered.  
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
@@ -61,7 +66,7 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>One_Day_at_a_Time</MDBCardTitle>
                         <MDBCardText>
-                            
+                        This is a simple workday scheduler that allows the user to input items into the schedule (9am-5pm) that can be saved and seen even when the page is refreshed.    
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
@@ -78,7 +83,8 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>Weather-or-not-to-Bring-an-Umbrella</MDBCardTitle>
                         <MDBCardText>
-                           
+                        This app allows the user to search for a city to get that city's 5 day weather forecast with the temperature, wind speed, and the humidity. 
+                        When the user searches for a different city, the previous city is added to the search history.  
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
@@ -93,7 +99,7 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>TasteBuds (Group Project)</MDBCardTitle>
                         <MDBCardText>
-                           
+                        TasteBuds lets you choose any ingredients you'd like to include, select the type of cuisine that you'd like to try, and filter dietary options in order to retrieve a cache of new recipes thst matches the ingredients, cuisine type, and dietary options chosen.    
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
@@ -108,7 +114,8 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>RobinGoodFoods (Group Project)</MDBCardTitle>
                         <MDBCardText>
-                          
+                        This is an e-commerce application.
+                        All of the featured products are made with Whole Ingredients, Organic and Non-GMO. 
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">

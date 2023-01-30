@@ -9,10 +9,10 @@ import {
     MDBCardFooter,
     MDBBtn
  } from 'mdb-react-ui-kit';
- import resumePic from '../../images/SuzanneBanasihan-Resume.docx';
+ import resumePic from '../../images/sBanasihan-resume.png';
 
 const Resume = () => {
-   
+    const pdfUrl = 'https://docs.google.com/document/d/1fuPq0ztuUAqYHgF6UF-6z2tf_W7vH4ZJ/edit?usp=sharing&ouid=113464026129545247487&rtpof=true&sd=true'
     return (
         <MDBContainer fluid className="vh-100">
             <div className="d-flex justify-content-center">
