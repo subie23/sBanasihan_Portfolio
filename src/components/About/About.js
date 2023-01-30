@@ -10,13 +10,13 @@ function About() {
                 <img class="mb-5" id="avatar" src="https://avatars0.githubusercontent.com/u/subie23?v=4" alt="Sue Banasihan" className="avatar"/>
 
                 <p>
-                Contemporary Full Stack Developer with over 23 years of Management experience which was used to improve business profitability while enhancing the customer's experience and lowering turnover rate by building relationships to enhance job satisfaction.
+                Contemporary Full Stack Developer with over 23 years of Management experience which was used to improve business profitability while enhancing the customer's experience and lowering employee turnover rate by building relationships to enhance job satisfaction.
                 </p>
                 <p>
                 Proficient in in both front and back end programming languages.
                 </p>
                 <p>
-                Leader and consultant with a proven track record who is able to guide projects from start to finish with significant results.
+                A leader and consultant with a proven track record who is able to guide projects from start to finish with significant results.
                 </p>
 
             </div>
