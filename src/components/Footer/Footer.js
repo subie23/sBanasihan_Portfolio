@@ -12,7 +12,7 @@ const Footer = () => {
                 <a rel="noreferrer" href='https://github.com/subie23' target="_blank" className='me-4 text-reset'>
                 <MDBIcon fab icon="github" size='2x'/>
                 </a>
-                <a rel="noreferrer" href='https://https://instagram.com/subie2328' target="_blank" className='me-4 text-reset'>
+                <a rel="noreferrer" href='https://instagram.com/subie2328' target="_blank" className='me-4 text-reset'>
                 <MDBIcon fab icon="instagram" size='2x'/>
                 </a>
                 </span>
